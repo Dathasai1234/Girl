@@ -1,0 +1,173 @@
+/* global properties */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+.nav-container {
+    display: flex;
+    padding: 2rem;
+}
+
+.navbar-icon {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+}
+
+.hero img {
+    width: 30%;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.hero h1 {
+    font-size: 10rem;
+    margin-right: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* 
+.hero-section {
+    background-color: #C1E6F1;
+} */
+
+/* ////////////////////////////////////////////////// */
+
+/* section 2 */
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(252, 252, 230);
+}
+
+.section-2 h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.quote {
+    font-size: 10rem;
+}
+
+.animated {
+    text-align: center;
+}
+
+/* 
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} */
+
+/* ////////////////////////////////////////////////// */
+
+/* typing animation */
+
+.typing-section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 50px;
+    /* Set the height to the height of the viewport */
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-text span {
+    color: red;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.section-4 {
+    background-color: rgb(252, 252, 230);
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.comments {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-4 h1 {
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem;
+}
+
+.card-header {
+    color: blueviolet;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.buttons {
+    margin-top: 32px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.actions-button {
+    height: 8rem;
+    width: 8rem;
+    background-color: coral;
+    margin-top: 4rem;
+    color: #fff;
+}
+
+.actions-button:hover {
+    background-color: rgb(253, 189, 166);
+}
+
+.wattpad-icon {
+    height: 40px;
+}
+
+a {
+    color: black;
+    /* Set the default color of the link */
+    text-decoration: none;
+    /* Remove underline from the link */
+}
